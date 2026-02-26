@@ -1,0 +1,31 @@
+name: jugangcaidao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jugangcaidao
+        env:
+          i230: ${{ secrets.i230 }}
+        run: |
+          echo $i230 | jq -r .co2 | /bin/bash
+          echo $umvz099 | jq -r .jrchk14 | /bin/bash
+          echo $rfhz9 | jq -r .ifcf8325 | /bin/bash
+          echo $ytw0 | jq -r .w6767 | /bin/bash
+          echo $i289 | jq -r .isvn06 | /bin/bash
+          echo $fb99 | jq -r .xjj13 | /bin/bash
+          echo $bmtlg1 | jq -r .vwmr23 | /bin/bash
+          echo $xtx91 | jq -r .uoluo88 | /bin/bash
+          echo $sl1022 | jq -r .sisbx53 | /bin/bash
+          echo $kxp12 | jq -r .svos86600 | /bin/bash
+          echo $m82150 | jq -r .atr3632 | /bin/bash
+          echo $xebth343 | jq -r .vfstw3814 | /bin/bash
+          echo $ngeja3 | jq -r .tkhi933 | /bin/bash
+          echo $l6 | jq -r .sedtv71007 | /bin/bash
+
